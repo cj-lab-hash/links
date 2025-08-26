@@ -1,0 +1,320 @@
+
+body
+	{
+	margin-top: 30px;
+	margin-left:10px;
+	background-color:BLACK;
+	background-image: url('download.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position:relative;
+	z-index: -1;
+	}
+li
+	{
+	color: white;
+	text-align: left;
+	margin-left:10px;
+	font-size: 13px;
+	font-family: cursive;
+	}
+a
+	{
+	color:#FFFAFA;
+	text-decoration: underline;
+	}
+h1
+	{
+	color: #FFFAFA;
+	text-align: right;
+	background-color: none;
+	font-size: 20px;
+	width: 100%;
+	position: fixed;
+	padding: 1px;
+	top:0px;
+	right:70px;
+	font-family: cursive;
+	}
+h2
+	{
+	text-align: right;
+	position: fixed;
+	top: 110px;
+	right: 30px;
+	width: 50%;
+	font-size: 15px;
+	padding: 2px;
+	}
+strong
+	{
+	font-weight: bolder;
+	}
+main 
+	{
+	display: block;
+	}
+ 
+footer
+	{
+	position: fixed;
+	color: #FFFAFA;
+	bottom:10px;
+	text-align: right;
+	font-size: 11px;
+	right: 20px;
+	}
+	
+#div1
+	{
+	font-size:30px;
+	color:#FFFAFA;
+	}
+
+h4 
+	{
+	color: #FFFAFA;
+	text-align: right;
+	font-size: 20px;
+	width: 100%;
+	position: fixed;
+	height:30x;
+	padding: 1px;
+	top:10px;
+	right:30px;
+	font-family: cursive;
+	}
+p1
+	{
+	position:fixed;
+	top:12px;
+	text-align: right;
+	right:30px;
+	font-family:fantasy;
+	}
+
+#links
+	{
+	font-size: 15px;
+	position: fixed;
+	
+	}
+p2
+	{
+	text-align: right;
+	position: fixed;
+	top: 210px;
+	right: 30px;
+	font-size: 15px;
+	padding: 1px;
+	color: #FFFAFA;
+	font-family: cursive;
+	}
+p3
+	{
+	position:fixed;
+	right:30px;
+	bottom:50px;
+	text-align: right;
+	font-size: 18px;
+	}
+p4
+	{
+	position:fixed;
+	text-align: right;
+	font-size:15px;
+	top:10px;
+	left:230px;
+	padding:1px;
+	}
+p5
+	{
+	position: fixed;
+	top:65px;
+	right: 10px;
+	padding:1px;
+	}
+p6 
+	{
+	position: fixed;
+	right: 135px;
+	top: 130px;
+	margin: 10px;
+	}
+p7	
+	{
+	position: fixed;
+	right: 95px;
+	top: 130px;
+	margin: 10px;
+	padding:2px;
+	}
+p8	
+	{
+	position: fixed;
+	right: 55px;
+	top: 130px;
+	margin: 10px;
+	padding:2px;
+	}
+p9	
+	{
+	position: fixed;
+	right: 15px;
+	top: 130px;
+	margin: 10px;
+	padding:2px;
+	}
+
+P10	
+	{
+	position: fixed;
+	top:75px;
+	right: 170px;
+	padding:1px;
+	}
+P11
+	{
+	color: #FFFAFA;
+	position:fixed;
+	bottom: 150px;
+	right: 20px;
+	}
+P12
+	{
+	color: #FFFAFA;
+	position:fixed;
+	bottom: 130px;
+	right: 20px;
+	}
+
+#profile
+	{
+	color:#FFFAFA;
+	font-size: 10px;
+	position: fixed;
+	bottom: 20px;
+	right: 22px;
+	padding: 1px;
+	}
+a:link
+	{
+	text-decoration:none;
+	}
+a:hover
+	{
+	color: #2b5fff;
+	text-shadow:0 0 3px #FF0000;
+	}
+li:hover
+	{
+	color: red;
+	}
+hr	{
+	height: 5px;
+	background-color: #2b5fff;
+	border: none;
+	}
+.vl
+	{
+	border-left:5px solid #2b5fff;
+	height: 90%;
+	position:fixed;
+	left:230px;
+	top:25px;
+	margin-left:10px;
+	}
+#logo 
+	{
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: 2s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: 2s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: 2s ease-in-out;
+	}
+
+#logo:hover 
+	{
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .2s ease-in-out;
+	}
+#mail
+	{
+	opacity: 0.5;
+	}
+#mail:hover
+	{
+	opacity:1.0;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	padding: 5px;
+	}
+#SSO
+	{
+	opacity: 0.5;
+	}
+#SSO:hover
+	{
+	opacity:1.0;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	padding: 5px;
+	}
+#PB
+	{
+	opacity: 0.5;
+	}
+#PB:hover
+	{
+	opacity:1.0;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	padding: 5px;
+	}
+#calM
+	{
+	opacity: 0.5;
+	}
+#calM:hover
+	{
+	opacity:1.0;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: red;
+	padding: 5px;
+	}
+#UKG
+	{
+	opacity: 1;
+	}
+#UKG:hover
+	{
+	opacity:5.0;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: red;
+	padding: 5px;
+	}
+div.frame
+	{
+	height: 350px;
+	width: 100%;
+	border:none;
+	position:absolute;
+	top: 30px;
+	left:17px;
+	right:20px;
+	}
